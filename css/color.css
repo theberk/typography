@@ -1,0 +1,49 @@
+
+:root {
+--main-color: #3E5C76;
+--complement: #4B8F8C;
+--accent-one: #2C1320;
+--menu-one: #20a8c9;
+--white: #ffffff;
+}
+    
+:root {
+--main-color: #092327;
+--complement: #F7B2AD;
+--accent-one: #2C1320;
+--menu-one: #DBDBDB;
+    --white-one: #ffffff;
+}
+
+:root {
+--main-color: #433E3F;
+--complement: #C69C72;
+--accent-one: #C0B7B1;
+--menu-one: #DBDBDB;
+}
+
+#title {
+color: var(--main-color);
+background-color: var(--menu-one);
+
+}
+    
+#profile button {
+background-color: var(--complement);
+color:
+}
+
+#login button{
+background-color: var(--complement);
+    }    
+    
+#menu li {
+background-color: var(--complement);
+}
+    
+#menu li:hover {
+background-color: var(white-one);
+color: var(--complement);
+}
+
+

@@ -1,0 +1,83 @@
+#container {
+	width: 960px;
+	margin: 0 auto;
+	
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+	column-gap: 0.5em;
+}
+
+#title {
+	grid-column: 1 / span 2;
+    grid-row: 1;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+#login{
+	grid-column:  3 / span 1;
+	grid-row: 1;
+    padding: 10px;
+    
+}
+
+#login button{
+padding:10px;
+    
+}
+
+input{
+padding: 10px;
+}
+
+#login a{
+
+}
+
+#menu {
+	grid-column: 1 / span 2;
+	grid-row: 2 /span 3;
+}
+
+#main  {
+	grid-column: 2 / span 1;
+    grid-row: 5;
+}
+    
+
+#write-post{
+    padding: 10px;
+    background-color: bisque;
+    
+}
+
+#main author{
+    background-clip: blue;
+}
+
+
+#profile{
+	grid-column: 1/span 2;
+	grid-row: 5;
+}
+#profile button{
+
+}
+
+#profile img{
+width: 20%;
+}
+
+
+
+#user-info{
+	grid-column:  1/ span 1;
+	grid-row: 2;
+}
+
+
+
+
+#social {
+	grid-column: 1 / span 1;
+}

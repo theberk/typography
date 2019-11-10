@@ -1,0 +1,33 @@
+/*typography 1*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
+
+/*typography 2*/
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:500&display=swap');
+
+/*typography 3*/
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap');
+
+/* global styles */
+@import "css/layout.css";
+@import "css/color.css";
+@import "css/typography-3.css";
+
+/* page styles */
+@import "css/auth.css";
+@import "css/menu.css";
+@import "css/create.css";
+@import "css/profile.css";
+
+@import "css/publish.css";
+@import "css/posts.css";
+
+/* responsive */
+@import "css/responsive.css";
+
+img { width: 100%; }
+body { margin: 0; }
